@@ -105,13 +105,13 @@ Version: 1.0
 :root {
   --font-kanit: "Kanit", sans-serif;
   --font-inter: "Inter", sans-serif;
-  --primary-color: #7f5af0;
-  --primary-color-opc: 127, 90, 240;  /* Fixed RGB format */
+  --primary-color: #8c7851;
+  --primary-color-opc: rgb(140, 120, 81);  /* Fixed RGB format */
   --primary-color2: #94a1b2;
   --primary-color2-opc: 148, 161, 178;  /* Fixed RGB format */
   --title-color: #fffffe;  /* Changed to white for headings */
   --title-color-opc: 255, 255, 254;  /* Fixed RGB format */
-  --purple-color: #7f5af0;
+  --purple-color: #8c7851;
   --paragraph-color: #94a1b2;
   --border-color: #2e2e35;
   --border-color-opc: 46, 46, 53;
@@ -219,10 +219,10 @@ video {
     padding-top: 80px;
   }
 }
-
+/* 
 .pt-130 {
-  padding-top: 130px;
-}
+  padding-top: 0px;
+} */
 @media (min-width: 992px) and (max-width: 1199px) {
   .pt-130 {
     padding-top: 100px;
@@ -235,7 +235,7 @@ video {
 }
 
 .pb-130 {
-  padding-bottom: 130px;
+  padding-bottom: 0px;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .pb-130 {
@@ -317,9 +317,9 @@ video {
   padding-bottom: 65px;
 }
 
-.mt-130 {
+/* .mt-130 {
   margin-top: 130px;
-}
+} */
 @media (min-width: 992px) and (max-width: 1199px) {
   .mt-130 {
     margin-top: 100px;
@@ -345,9 +345,9 @@ video {
   }
 }
 
-.mb-130 {
+/* .mb-130 {
   margin-bottom: 130px;
-}
+} */
 @media (min-width: 992px) and (max-width: 1199px) {
   .mb-130 {
     margin-bottom: 100px;
@@ -4835,9 +4835,9 @@ header.style-3.two.sticky {
 /*=====================================
  05. Home1 Service Section 
 ========================================*/
-.home1-service-section {
+/* .home1-service-section {
   padding: 120px 0;
-}
+} */
 @media (max-width: 1199px) {
   .home1-service-section {
     padding: 90px 0;
@@ -5085,11 +5085,11 @@ header.style-3.two.sticky {
   padding-bottom: 190px;
   position: relative;
 }
-@media (max-width: 1399px) {
+/* @media (max-width: 1399px) {
   .home1-why-choose-us-section {
-    padding-bottom: 130px;
+    padding-bottom: 0px;
   }
-}
+} */
 @media (max-width: 1199px) {
   .home1-why-choose-us-section {
     padding-bottom: 80px;
@@ -6504,6 +6504,9 @@ header.style-3.two.sticky {
 ========================================*/
 .faq-wrap .accordion .accordion-item {
   border: none;
+  background-color: #16161a;
+  border-bottom: 1px solid rgba(140, 120, 81, 0.3);
+
 }
 .faq-wrap .accordion .accordion-item:first-child .accordion-header .accordion-button {
   padding-top: 0;
@@ -6521,7 +6524,9 @@ header.style-3.two.sticky {
   padding: 0;
   padding-bottom: 20px;
   padding-top: 35px;
-  border-bottom: 1px solid rgba(var(--primary-color-opc), 0.1);
+  border-bottom: 1px solid rgba(var(--primary-color-opc), 1)!important;
+  background-color: #16161a;
+
 }
 @media (max-width: 1199px) {
   .faq-wrap .accordion .accordion-item .accordion-header .accordion-button {
@@ -10377,7 +10382,7 @@ header.style-3.two.sticky {
   position: relative;
   z-index: 1;
 }
-@media (min-width: 1400px) and (max-width: 1599px) {
+/* @media (min-width: 1400px) and (max-width: 1599px) {
   .home2-contact-section {
     padding: 130px 0;
   }
@@ -10386,7 +10391,7 @@ header.style-3.two.sticky {
   .home2-contact-section {
     padding: 130px 0;
   }
-}
+} */
 @media (max-width: 1199px) {
   .home2-contact-section {
     padding: 110px 0;

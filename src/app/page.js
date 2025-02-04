@@ -24,9 +24,9 @@ export default function Home() {
       <Home1WhyChooseus />
       <Home1Project />
       <Home1Support />
-      <Home1Banner2 />
-      <Home1Team/>
-      <Home1Testimonial />
+      {/* <Home1Banner2 /> */}
+      {/* <Home1Team/> */}
+      {/* <Home1Testimonial /> */}
       <Home1Faq />
       <Home1blog />
       <Home1FooterTop />
